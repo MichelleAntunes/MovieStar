@@ -57,7 +57,7 @@
           <p class="page-description">Enter the new password and confirm to change your password:</p>
           <form action="<?= $BASE_URL ?>/user_process.php" method="POST">
             <input type="hidden" name="type" value="changepassword">
-            <div class="form-group">
+                       <div class="form-group">
               <label for="password">Password:</label>
               <input type="password" class="form-control" id="password" name="password" placeholder="Enter your new password">
             </div>
