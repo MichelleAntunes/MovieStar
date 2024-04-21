@@ -1,15 +1,15 @@
-<?php
+<!-- <?php
 
-    require_once("models/User.php");
+    // require_once("models/User.php");
 
-    $userModel = new User();
+    // $userModel = new User();
 
-    $fullName = $userModel->getFullName($review->user);
+    // $fullName = $userModel->getFullName($review->user);
 
-    // Checar se o filme tem imagem
-    if($review->user->image == "") {
-      $review->user->image = "user.png";
-    }
+    // // Checar se o filme tem imagem
+    // if($review->user->image == "") {
+    //   $review->user->image = "user.png";
+    // }
 
 ?>
 <div class="col-md-12 review">
@@ -28,4 +28,4 @@
       <p><?= $review->review ?></p>
     </div>
   </div>
-</div>
+</div> -->
