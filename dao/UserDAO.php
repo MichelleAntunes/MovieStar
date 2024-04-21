@@ -263,7 +263,7 @@
       $stmt->execute();
 
       // Redirecionar e apresentar a mensagem de sucesso
-      $this->message->setMessage("Senha alterada com sucesso!", "success", "/editprofile.php");
+      $this->message->setMessage("Password changed successfully!", "success", "/editprofile.php");
 
      }
 
